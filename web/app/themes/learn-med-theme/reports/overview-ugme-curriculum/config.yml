@@ -1,0 +1,5 @@
+modules:
+  https://learn.med.uottawa.ca/courses/overview-of-the-undergraduate-medical-education-curriculum/:
+    name: Overview of the Undergraduate Medical Education Curriculum
+  https://apprendre.med.uottawa.ca/cours/apercu-du-programme-detudes-medicales-de-premier-cycle/:
+    name: Aperçu du programme d’études médicales de premier cycle

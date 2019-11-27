@@ -1,0 +1,24 @@
+Directions:
+In Text editing mode:
+<p></p>
+<p></p>
+<p></p>
+<p></p>
+<p></p>
+<p></p>
+<p></p>
+<p></p>
+<p></p>
+<p></p>
+<p></p>
+<p></p>
+<p style="text-align: center;">[usermeta field="display_name"]</p>
+<p></p>
+<p></p>
+<p></p>
+[ADD THE NAME OF THE COURSE, LESSON, OR QUIZ AS TEXT OR IMAGE/LOGO*]
+
+*If text use code:
+<p style="text-align: center;">TEXT HERE</p> 
+If image or logo, align center and size accordingly.
+

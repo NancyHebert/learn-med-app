@@ -1,0 +1,205 @@
+/* Vanilla CSS */
+
+/***************************************************************************************
+* BODY ELEMENTS
+***************************************************************************************/
+
+body {font-family: "Helvetica", sans-serif; font-weight: normal; font-size: 100%; line-height:1.5em; color: #000;}
+div {}
+hr {border: 0%; background-color: #61564E;}
+img { 
+	 -webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+}
+
+img.circle { 
+	 -webkit-border-radius: 100%;
+	-moz-border-radius: 100%;
+	border-radius: 100%;
+}
+
+a {color:#240757;}
+
+address, article, aside, canvas, details, figcaption, figure, footer, header, menu, nav, section, summary {
+	 display: block;
+}
+
+/***************************************************************************************
+* HEADINGS
+***************************************************************************************/
+
+/* All Headings */
+h1, h2, h3, h4, h5, h6 {}
+
+/* Individual Headings */
+h1 {color:#731025;}
+h2 {color:#61564E;}
+h3 {color:#240757;}
+h4 {color:#000;}
+h5 {color:#000;}
+h6 {color:#000;}
+
+/***************************************************************************************
+* PARAGRAPHS
+***************************************************************************************/
+
+/* First Paragraph */
+p {}
+
+/* Second Paragraph */
+abbr {
+
+	position: relative;
+}
+
+
+abbr:hover::after {
+    position: absolute;
+    bottom: 100%;
+    left: 100%;
+    display: block;
+    padding: 1em;
+    background: #edf6cc;
+    content: attr(title);
+    -webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+}
+
+
+
+b{font-weight: bold;}
+
+/* Blockquote */
+blockquote {
+
+	background: #f4f3f2;
+	border-left: 10px solid #dddbd6;
+	margin: 1.5em 10px;
+	padding: 0.5em 10px;
+	quotes: "\201C""\201D""\2018""\2019";
+
+}
+
+blockquote:before {
+  color: #dddbd6;
+  content: open-quote;
+  font-size: 4em;
+  line-height: 0.1em;
+  margin-right: 0.25em;
+  vertical-align: -0.4em;
+}
+
+blockquote p {
+  display: inline;
+}
+
+cite {font-style:italic;font-size:80%;color:#61564E;}
+
+cite:before {content:"\2014"" "}
+
+/* Third Paragraph */
+dfn {}
+del {color: red;}
+em {}
+i {}
+strong {font-weight: bold;}}
+ins {}
+small {}
+
+/* Quote */
+q {font-style:italic;color:#61564E;}
+
+/* Fourth Paragraph */
+sub {}
+sup {}
+
+/***************************************************************************************
+* LISTS
+***************************************************************************************/
+
+/* All Lists */
+dl, ol, ul {}
+
+/* Definition Lists */
+dl {
+	border: 1px solid #dddbd6;
+    padding: 0.5em;
+    overflow: hidden;
+}
+dt {
+	float: left;
+    clear: left;
+    width: 160px;
+    text-align: left;
+    font-weight: bold;
+    color: #61564E;
+}
+dt:after {
+    content: ":";
+  }
+dd {
+	margin: 0 0 0 0;
+    padding: 0 0 0 0;
+}
+
+/* Ordered Lists */
+ol {}
+ol li {}
+
+/* Unordered Lists */
+ul {}
+ul li {}
+
+/***************************************************************************************
+* FORMS
+***************************************************************************************/
+
+form {}
+fieldset {}
+legend {}
+label {}
+
+/* Inputs */
+input {}
+textarea {}
+
+/* Other */
+select {}
+optgroup {}
+
+/***************************************************************************************
+* TABLES
+***************************************************************************************/
+
+table {}
+caption {padding: 1em;font-weight: bold; color:#61564E;}
+tr {}
+
+/* Head */
+thead {padding: 1em;}
+th {background-color:#dddbd6;padding: 0.5em;}
+
+/* Body */
+tbody {}
+td {background-color:#e9e8e5;padding: 0.5em;}
+
+/* Foot */
+tfoot {background-color:#f4f3f2;}
+
+/***************************************************************************************
+* OTHER
+***************************************************************************************/
+
+address {}
+code {color:#240757;}
+samp {}
+pre {}
+kbd {}
+var {}
+
+
+
+
+

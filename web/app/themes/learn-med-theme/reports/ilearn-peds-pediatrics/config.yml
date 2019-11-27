@@ -1,0 +1,76 @@
+report_name: 'Pediatrics residents'
+residents:
+  PGY1:
+    SBOGG043@uottawa.ca:
+      name: Samantha Boggs
+      username: SBOGG043
+    JCOX094@uottawa.ca:
+      name: Joel Cox
+      username: JCOX094
+    bcrou086@uottawa.ca:
+      name: Brian  Crouse
+      username: BCROU086
+    SFARR033@uottawa.ca:
+      name: Sarah Farrow
+      username: SFARR033
+    sgian021@uottawa.ca:
+      name: Sandra Giangioppo
+      username: SGIAN021
+    JKALI008@uottawa.ca:
+      name: Jennifer Kalil
+      username: JKALI008
+    KMACD131@uottawa.ca:
+      name: Kyle Macdonald
+      username: KMACD131
+    amarr095@uottawa.ca:
+      name: Alexa Marr
+      username: AMARR095
+    eouya014@uottawa.ca:
+      name: Eva Ouyang
+      username: EOUYA014
+    CTUCK086@uottawa.ca:
+      name: Catherine Tucker
+      username: CTUCK086
+    CRYAN019@uottawa.ca:
+      name: Cara Walker
+      username: CRYAN019
+  PGY2:
+    jbhul038@uottawa.ca:
+      name: Jessica Bhullar
+      username: JBHUL038
+    scart103@uottawa.ca:
+      name: Shannon Bucking
+      username: SCART103
+    ccare018@uottawa.ca:
+      name: Caitlin Carew
+      username: CCARE018
+    scitr075@uottawa.ca:
+      name: Sara Citron
+      username: SCITR075
+    pdixi062@uottawa.ca:
+      name: Priyanka Dixit
+      username: PDIXI062
+    kfarr072@uottawa.ca:
+      name: Keelia Farrell
+      username: KFARR072
+    nfinn036@uottawa.ca:
+      name: Natalie Finner
+      username: NFINN036
+    ngiro090@uottawa.ca:
+      name: Nathalie Giroux
+      username: ngiro090
+    glam025@uottawa.ca:
+      name: Gilbert Lam
+      username: GLAM025
+    lmcra011@uottawa.ca:
+      name: Lindsay McRae
+      username: lmcra011
+    rsekh064@uottawa.ca:
+      name: Ravneet  Sekhon
+      username: RSEKH064
+    asing013@uottawa.ca:
+      name: Arielle Singer
+      username: ASING013
+    jwhit145@uottawa.ca:
+      name: Jessica White
+      username: jwhit145

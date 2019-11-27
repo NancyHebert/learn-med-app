@@ -1,0 +1,39 @@
+reports:
+  completion:
+    filename: 'Completion - Communication in the Healthcare Environment - %s.xlsx'
+  answers:
+    filename: 'Feedback - Communication in the Healthcare Environment - %s.xlsx'
+  incorrect_answers:
+    filename: 'Incorrect answers - Communication in the Healthcare Environment - %s.xlsx'
+testers:
+  - estodel@learning4excellence.com
+  - abyszewski@toh.on.ca
+modules:
+  https://learn.med.uottawa.ca/courses/communication-in-the-healthcare-environment/:
+    name: Communication in the Healthcare Environment
+    name_abbr: EN module
+    first_scores:
+      https://learn.med.uottawa.ca/lessons/test-your-learning-6/#assessment/wp-pro-quiz/64:
+        name: 'Post-test First Recorded Score (tracking since Jan. 7 2016)'
+    questions:
+      reflection:
+        https://learn.med.uottawa.ca/lessons/please-provide-feedback-3/#assessment/interaction/quiz-tool-lite/184:
+      scored:
+        - https://learn.med.uottawa.ca/lessons/test-your-learning-6/#assessment/wp-pro-quiz/64/interaction/193
+        - https://learn.med.uottawa.ca/lessons/test-your-learning-6/#assessment/wp-pro-quiz/64/interaction/196
+        - https://learn.med.uottawa.ca/lessons/test-your-learning-6/#assessment/wp-pro-quiz/64/interaction/197
+        - https://learn.med.uottawa.ca/lessons/test-your-learning-6/#assessment/wp-pro-quiz/64/interaction/198
+  https://apprendre.med.uottawa.ca/cours/communication-dans-le-milieu-des-soins-de-sante/:
+    name: Communication dans le milieu des soins de santé
+    name_abbr: FR module
+    first_scores:
+      https://apprendre.med.uottawa.ca/lecons/francais-test-your-learning/#assessment/wp-pro-quiz/68:
+        name: 'Post-test First Recorded Score (tracking since Jan. 7 2016)'
+    questions:
+      reflection:
+        https://apprendre.med.uottawa.ca/lecons/francais-please-provide-feedback/#assessment/interaction/quiz-tool-lite/204:
+      scored:
+        - https://apprendre.med.uottawa.ca/lecons/francais-test-your-learning/#assessment/wp-pro-quiz/68/interaction/214
+        - https://apprendre.med.uottawa.ca/lecons/francais-test-your-learning/#assessment/wp-pro-quiz/68/interaction/215
+        - https://apprendre.med.uottawa.ca/lecons/francais-test-your-learning/#assessment/wp-pro-quiz/68/interaction/216
+        - https://apprendre.med.uottawa.ca/lecons/francais-test-your-learning/#assessment/wp-pro-quiz/68/interaction/217

@@ -1,0 +1,512 @@
+report_name: 'Undergraduate'
+students:
+    padle085@uottawa.ca:
+        name: Paula Adler
+        username: padle085
+    aangh025@uottawa.ca:
+        name: Maria Alexandra Anghel
+        username: cdesorm3
+    oanju068@uottawa.ca:
+        name: Omar Anjum
+        username: oanju068
+    sarba073@uottawa.ca:
+        name: Sadaf Arbab-tafti
+        username: sarba073
+    karse056@uottawa.ca:
+        name: Kyle Arsenault Mehta
+        username: karse056
+    kaubi096@uottawa.ca:
+        name: Karine Aubin
+        username: kaubi096
+    aayou069@uottawa.ca:
+        name: Abdul Rahman Ayoub
+        username: aayou069      
+    jaziz032@uottawa.ca:
+        name: Joseph Alexander Aziz
+        username: jaziz032  
+    bbala022@uottawa.ca:
+        name: Bannuya Balasubramanaiam
+        username: bbala022  
+    gbala031@uottawa.ca:
+        name: Gayathiri Balasubramaniam
+        username: gbala031  
+    cball069@uottawa.ca:
+        name: Cora Elizabeth Ballou
+        username: cball069  
+    jbarr057@uottawa.ca:
+        name: Juliana Andrea Barrera Ramirez
+        username: jbarr057  
+    ebeau005@uottawa.ca:
+        name: Elise Beaudry
+        username: ebeau005  
+    sbeno049@uottawa.ca:
+        name: Stéphanie Benoît
+        username: sbeno049
+    mbenz080@uottawa.ca:
+        name: Menachem Benzaquen
+        username: mbenz080  
+    abirk049@uottawa.ca:
+        name: Alexandra Eliana Erika Birk-Urovitz
+        username: abirk049  
+    hblee035@uottawa.ca:
+        name: Helena Elizabeth Bleeker
+        username: hblee035  
+    mboco104@uottawa.ca:
+        name: Matthew Michael Bocock
+        username: mboco104  
+    mbois019@uottawa.ca:
+        name: Maxime Raymonde Gaetane   Boisvenue
+        username: mbois019  
+    jbowd020@uottawa.ca:
+        name: Joshua Corey Bowdridge
+        username: jbowd020        
+    sbutt065@uottawa.ca:
+        name: Sarah Grace Buttle
+        username: sbutt065  
+    mbyha071@uottawa.ca:
+        name: Michèle-Renée Byham
+        username: mbyha071  
+    rchas070@uottawa.ca:
+        name: Rebecca Elizabeth Chase
+        username: rchas070  
+    acheb041@uottawa.ca:
+        name: Amokrane Chebini
+        username: acheb041  
+    acheh084@uottawa.ca:
+        name: MAli Cyrus Chehroudi
+        username: acheh084  
+    bchen071@uottawa.ca:
+        name: Brian Pin-Jung Chen
+        username: bchen071  
+    jchen174@uottawa.ca:
+        name: Jessica Ting Chen
+        username: jchen174  
+    acheu061@uottawa.ca:
+        name: Annie Cheung
+        username: acheu061  
+    achun096@uottawa.ca:
+        name: Amy Margaret Chung
+        username: achun096  
+    ocook088@uottawa.ca:
+        name: Olivia Gwenneth   Cook
+        username: ocook088  
+    screm027@uottawa.ca:
+        name: Samantha Cremer
+        username: screm027  
+    ecusa097@uottawa.ca:
+        name: Ellen Laura Rose Cusano
+        username: ecusa097  
+    mdasi035@uottawa.ca:
+        name: Marco Da Silva
+        username: mdasi035  
+    hdang090@uottawa.ca:
+        name: Harry Dang
+        username: hdang090  
+    pdave014@uottawa.ca:
+        name: Prasham Dave
+        username: pdave014  
+    tdavi012@uottawa.ca:
+        name: Travis William Davidson
+        username: tdavi012  
+    mdegu051@uottawa.ca:
+        name: Marc-Olivier Joseph Jean-Claude De Guise
+        username: mdegu051  
+    adelu024@uottawa.ca:
+        name: Alyssa Lauren De Luca
+        username: adelu024  
+    sdemo070@uottawa.ca:
+        name: Sylvie Laurette Marie de Moissac
+        username: sdemo070  
+    mdesc034@uottawa.ca:
+        name: Max Abram Thomas Deschner
+        username: mdesc034  
+    kdesj084@uottawa.ca:
+        name: Kirsten Desjardins-Lorimer
+        username: kdesj084  
+    jdimi041@uottawa.ca:
+        name: Joseph Di Michele
+        username: jdimi041  
+    cdica091@uottawa.ca:
+        name: Caroline Dicaire
+        username: cdica091  
+    ndyck091@uottawa.ca:
+        name: Neala Rae Dyck
+        username: ndyck091  
+    neard050@uottawa.ca:
+        name: Natasha Tara Ann Eardley
+        username: neard050  
+    ceber063@uottawa.ca:
+        name: Chandra Emilie Eberhard
+        username: ceber063  
+    jelha027@uottawa.ca:
+        name: Julie El-Haddad
+        username: jelha027
+    sfade059@uottawa.ca:
+        name: Saleh Fadel
+        username: sfade059
+    jfede095@uottawa.ca:
+        name: Joshua Adam Feder
+        username: jfede095
+    ifell101@uottawa.ca:
+        name: Ilan Aharon Fellus
+        username: ifell101
+    nfern069@uottawa.ca:
+        name: Nigel Anthony Fernandopulle
+        username: nfern069
+    lforr035@uottawa.ca:
+        name: Laura Anne Forrest
+        username: lforr035
+    rfran048@uottawa.ca:
+        name: Ilan Aharon Fellus
+        username: rfran048  
+    ifell101@uottawa.ca:
+        name: Robert Alan Frank
+        username: ifell101
+    hfurm024@uottawa.ca:
+        name: Hossai Furmli
+        username: hfurm024
+    mgad057@uottawa.ca:
+        name: Monica Gad
+        username: mgad057
+    sgara092@uottawa.ca:
+        name: Shady Nashaat Garas
+        username: sgara092
+    jgard051@uottawa.ca:
+        name: Jeremy Paul John Gardner
+        username: jgard051
+    kgarl051@uottawa.ca:
+        name: Katie Patricia Yvonne Garland
+        username: kgarl051
+    eglan082@uottawa.ca:
+        name: Monica Gad
+        username: eglan082
+    eglan082@uottawa.ca:
+        name: Emilie Liane Glanz
+        username: eglan082
+    rgold079@uottawa.ca:
+        name: Reuben Levy Goldberg
+        username: rgold079
+    bgott007@uottawa.ca:
+        name: Bram Panofsky Gottlieb
+        username: bgott007
+    lgres055@uottawa.ca:
+        name: Louise Gresham
+        username: lgres055
+    ehach066@uottawa.ca:
+        name: Etienne Marco Hache
+        username: ehach066
+    fhage055@uottawa.ca:
+        name: Fadi Hage
+        username: fhage055
+    chall039@uottawa.ca:
+        name: Clayton Wallace Hall
+        username: chall039
+    jhalp075@uottawa.ca:
+        name: Jeremy Avraham Halpern
+        username: jhalp075
+    ehash070@uottawa.ca:
+        name: Emile Hashem
+        username: ehash070
+    ehawl094@uottawa.ca:
+        name: Emily Danielle Hawling
+        username: ehawl094
+    ahenn056@uottawa.ca:
+        name: Anzel Hennop
+        username: ahenn056
+    khill103@uottawa.ca:
+        name: Kevin Mackenzie Hill
+        username: khill103
+    thilt055@uottawa.ca:
+        name: Tara Nicole Hilton
+        username: thilt055
+    yhong010@uottawa.ca:
+        name: Brian Younho Hong
+        username: yhong010
+    jhu032@uottawa.ca:
+        name: Jason Baoshan Hu
+        username: jhu032
+    aihad060@uottawa.ca:
+        name: Ryma Ihaddadene
+        username: aihad060
+    rimti037@uottawa.ca:
+        name: Rameez Imtiaz
+        username: rimti037
+    djeba028@uottawa.ca:
+        name: Danusha Jebanesan
+        username: djeba028
+    jjoo016@uottawa.ca:
+        name: Jiyeh Joo
+        username: jjoo016
+    nkant083@uottawa.ca:
+        name: Navot Kantor
+        username: nkant083
+    mkapu024@uottawa.ca:
+        name: Mallika Kapur
+        username: mkapu024
+    hkare008@uottawa.ca:
+        name: Hashim Khaliq Kareemi
+        username: hkare008
+    JKEOW021@uottawa.ca:
+        name: Jonathan Keow
+        username: JKEOW021
+    jkim254@uottawa.ca: 
+        name: Jeong Min Kim 
+        username: jkim254
+    akini016@uottawa.ca:
+        name: Anna Eva Kinio
+        username: akini016
+    tkwok016@uottawa.ca:
+        name: Timothy Shun Him Kwok
+        username: tkwok016
+    nlaaf007@uottawa.ca:
+        name: Narjiss Laafou
+        username: nlaaf007
+    mlacr092@uottawa.ca:
+        name: Marie-Noëlle Lacroix
+        username: mlacr092
+    clado025@uottawa.ca:
+        name: Chelsey Michel Yvette Ladouceur
+        username: clado025
+    clali086@uottawa.ca:
+        name: Corinne Laliberté
+        username: clali086
+    dlamm026@uottawa.ca:
+        name: Deanna Michelle Lammers
+        username: dlamm026
+    rle035@uottawa.ca:
+        name: Ryan Thang Cong Le
+        username: rle035
+    vlebl082@uottawa.ca:
+        name: Véronique Leblanc
+        username: vlebl082
+    olee023@uottawa.ca:
+        name: Olivia May Lee
+        username: olee023
+    eleha063@uottawa.ca:
+        name: Emily Anne Jeanette Lehan
+        username: eleha063
+    bleva097@uottawa.ca:
+        name: Brendan Maclean Levac
+        username: bleva097
+    mleve089@uottawa.ca:
+        name: Marianne Levesque
+        username: mleve089
+    tlojp081@uottawa.ca:
+        name: Tanja Lojpur
+        username: tlojp081
+    yluo095@uottawa.ca:
+        name: Yun Yu Lindy Luo
+        username: yluo095
+    amacd023@uottawa.ca:
+        name: Alistair Richard MacDonald
+        username: amacd023
+    zmacd063@uottawa.ca: 
+        name: Zachary David MacDonald
+        username: zmacd063
+    mmagn048@uottawa.ca:
+        name: Marie-Claude Marthe Françoise Magnan
+        username: mmagn048
+    hmahm045@uottawa.ca:
+        name: Hamza Mahmood
+        username: hmahm045
+    tmai099@uottawa.ca:
+        name: Trinh T. Mai
+        username: tmai099
+    mmalt051@uottawa.ca: 
+        name: Melissa Teixeira Maltez
+        username: mmalt051
+    tmani058@uottawa.ca:
+        name: Tetyana Maniuk
+        username: tmani058
+    cmans007@uottawa.ca: 
+        name: Christopher Saad Mansour
+        username: cmans007
+    pmaso015@uottawa.ca:
+        name: Pourya Masoudian
+        username: pmaso015
+    amata005@uottawa.ca:
+        name: Ayah Matar
+        username: amata005
+    hmcdo032@uottawa.ca:
+        name: Heather Margaret McDonald
+        username: hmcdo032
+    kmcdo026@uottawa.ca:
+        name: Katherine Ann McDonald
+        username: kmcdo026
+    lmcdo050@uottawa.ca:
+        name: Laura McDonell
+        username: lmcdo050
+    rmcgi019@uottawa.ca:
+        name: Ryan Nicholas McGinn  
+        username: rmcgi019
+    tmcgr043@uottawa.ca:
+        name: Trevor Adam McGrath   
+        username: tmcgr043
+    bmiga052@uottawa.ca: 
+        name: Bassem S. Migally 
+        username: bmiga052
+    bmile079@uottawa.ca:
+        name: Brittany Alison Miles
+        username: bmile079
+    smoha161@uottawa.ca:
+        name: Sepideh Mohajeri
+        username: smoha161
+    mmore053@uottawa.ca:
+        name: Marc-André Morency
+        username: mmore053
+    fmost042@uottawa.ca:
+        name: Fargol Mostofian
+        username: fmost042
+    rmota051@uottawa.ca:
+        name: Ryan Nickan Motamedi
+        username: rmota051
+    pmota060@uottawa.ca:
+        name: Pouya Motazedian
+        username: pmota060
+    vmyer078@uottawa.ca:
+        name: Victoria Rose Myers
+        username: vmyer078
+    nnahi064@uottawa.ca:
+        name: Nima Nahiddi
+        username: nnahi064
+    nnawa033@uottawa.ca:
+        name: Nikhat Nawar
+        username: nnawa033
+    kng028@uottawa.ca:
+        name: Kyle Kai Ho Ng
+        username: kng028
+    snobi035@uottawa.ca:
+        name: Steven Nobile
+        username: snobi035
+    jpark172@uottawa.ca:
+        name: Jiyoon Park
+        username: jpark172
+    spatr022@uottawa.ca:
+        name: Sean Peter Patrick
+        username: spatr022
+    jpeng032@uottawa.ca:
+        name: Jenny Zheyi Peng
+        username: jpeng032
+    rperr046@uottawa.ca:
+        name: Richard Leslie William Perrier
+        username: rperr046
+    cpope040@uottawa.ca:
+        name: Ceinwen Glynis Hines Pope
+        username: cpope040
+    ipovi049@uottawa.ca:
+        name: Iuliia Oleksand Povieriena
+        username: ipovi049
+    apray100@uottawa.ca:
+        name: Audrey LaurannePrayal-Brown
+        username: apray100
+    trahm019@uottawa.ca:
+        name: Sikdar Tarun Rahman
+        username: trahm019
+    NRANG027@uottawa.ca:
+        name: Nischal Ranganath
+        username: NRANG027
+    dreid079@uottawa.ca:
+        name: Deborah Isabel Reid
+        username: dreid079
+    arich069@uottawa.ca:
+        name: Andre Emmanuel Richard
+        username: arich069
+    lrich018@uottawa.ca:
+        name: Lydia Josée Richardson
+        username: lrich018
+    aruhr076@uottawa.ca:
+        name: Alexandra Marie Ruhr
+        username: aruhr076
+    cruss029@uottawa.ca:
+        name: Christopher Grant Russell
+        username: cruss029
+    bsand068@uottawa.ca:
+        name: Brendan Scott Philip Sanders
+        username: bsand068
+    dsand046@uottawa.ca:
+        name: David Stephen Sands
+        username: dsand046
+    ssied007@uottawa.ca:
+        name: Stefan Siedlikowski
+        username: ssied007
+    csoar075@uottawa.ca:
+        name: Chelsea Lynn Soares   
+        username: csoar075
+    cstam062@uottawa.ca:
+        name: Claude Alain St Amand Hubert 
+        username: cstam062
+    jstan072@uottawa.ca:
+        name: Joshua Ryan Stanley
+        username: jstan072
+    bstee015@uottawa.ca:
+        name: Bailey Helen Josephine Steele
+        username: bstee015
+    asudd012@uottawa.ca:
+        name: Amélia Véronique Suddaby
+        username: asudd012
+    msyed047@uottawa.ca:
+        name: Maleeha Fatima Syed
+        username: msyed047
+    itheb007@uottawa.ca:
+        name: Isabel Théberge
+        username: itheb007
+    ntimm065@uottawa.ca:
+        name: Nicholas Peter Timmerman
+        username: ntimm065
+    JTOKA099@uottawa.ca:
+        name: Jacqueline Tokarew
+        username: JTOKA099
+    mtoup104@uottawa.ca:
+        name: Mathieu Vincent Joseph Toupin
+        username: mtoup104
+    gveil100@uottawa.ca:
+        name: Gabrielle Veillet-Lemay
+        username: gveil100
+    gwahb103@uottawa.ca:
+        name: George Wahba
+        username: gwahb103
+    awang088@uottawa.ca:
+        name: AiLi Wang
+        username: awang088
+    rwath102@uottawa.ca:
+        name: Rafae Ashraf Wathra
+        username: rwath102
+    mwei055@uottawa.ca:
+        name: Mike Wei
+        username: mwei055
+    cwels009@uottawa.ca: 
+        name: Christopher Cullen Welsh
+        username: cwels009
+    hwong027@uottawa.ca:
+        name: Anson Hei Man Wong
+        username: hwong027
+    bwong018@uottawa.ca:
+        name: Brendan Matthew Wong 
+        username: bwong018
+    swood049@uottawa.ca:
+        name: Stacie Jean Wood 
+        username: swood049
+    jwrob045@uottawa.ca:
+        name: Julie-Anne Samantha Wrobleski
+        username: jwrob045
+    mxia064@uottawa.ca:
+        name: Meng Yang Xia
+        username: mxia064
+    yyau073@uottawa.ca:
+        name: Yim Tai Lawrence Yau
+        username: yyau073
+    ayork048@uottawa.ca:
+        name: Anna Elizabeth York-Lyon
+        username: ayork048
+    ayu052@uottawa.ca:
+        name: Ashley Michelle Yu
+        username: ayu052
+    zzhan163@uottawa.ca:
+        name: Zhi Hao Zhang
+        username: zzhan163
+    lzhou026@uottawa.ca:
+        name: Linghong Zhou
+        username: lzhou026
+    hziai100@uottawa.ca:
+        name: Hedyeh Ziai
+        username: hziai100

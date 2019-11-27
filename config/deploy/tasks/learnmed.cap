@@ -1,0 +1,31 @@
+namespace :learnmed do
+
+  desc "Modify usernames and emails in bulk from modifications detailed in a csv file"
+  task :bulkusermodify do
+    on roles(:web) do
+      set :local_csv_file, -> {"username-email-modify.csv"}
+      set :remote_csv_file, -> {"#{fetch(:tmp_dir)}/#{fetch(:local_csv_file)}"}
+
+      set :local_jobs_json_file, -> {"jobs.json"}
+      set :remote_jobs_json_file, -> {"#{fetch(:tmp_dir)}/#{fetch(:local_jobs_json_file)}"}
+
+      upload! fetch(:local_csv_file), fetch(:remote_csv_file)
+
+      within release_path do
+        execute :wp, "learn-med", :user, :modify, "username-email-from-csv", fetch(:remote_csv_file), "--report-action-taken", "--export-lrs-rewrite-jobs=#{fetch(:remote_jobs_json_file)}"
+      end
+      
+      run_locally do
+        execute :cp, fetch(:local_csv_file), fetch(:local_csv_file) + ".original"
+      end
+
+      download! fetch(:remote_csv_file), fetch(:local_csv_file)
+      download! fetch(:remote_jobs_json_file), fetch(:local_jobs_json_file)
+
+      within release_path do
+        execute :rm, fetch(:remote_csv_file), fetch(:remote_csv_file) + ".old", fetch(:remote_jobs_json_file)
+      end
+    end
+  end
+
+end

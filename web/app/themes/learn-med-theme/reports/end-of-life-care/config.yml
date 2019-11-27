@@ -1,0 +1,47 @@
+reports:
+  completion:
+    filename: 'Completion - Ethical Principles - Informed Consent and End-of-Life Care Module - %s.xlsx'
+  answers:
+    filename: 'Feedback - Ethical Principles - Informed Consent and End-of-Life Care Module - %s.xlsx'
+  incorrect_answers:
+    filename: 'Incorrect answers - Ethical Principles - Informed Consent and End-of-Life Care Module - %s.xlsx'
+testers:
+  - estodel@learning4excellence.com
+  - abyszewski@toh.on.ca
+modules:
+  https://learn.med.uottawa.ca/courses/informed-consent-end-of-life-care/:
+    name: Ethical Principles - Informed Consent and End-of-Life Care Module
+    name_abbr: EN module
+    first_scores:
+      https://learn.med.uottawa.ca/lessons/test-your-learning-informed-consent/#assessment/wp-pro-quiz/76:
+        name: 'Post-test First Recorded Score (tracking since Jan. 7 2016)'
+    questions:
+      reflection:
+        https://learn.med.uottawa.ca/lessons/please-provide-feedback-informed-consent/#assessment/interaction/quiz-tool-lite/285:
+      scored:
+        - https://learn.med.uottawa.ca/lessons/test-your-learning-informed-consent/#assessment/wp-pro-quiz/76/interaction/239
+        - https://learn.med.uottawa.ca/lessons/test-your-learning-informed-consent/#assessment/wp-pro-quiz/76/interaction/240
+        - https://learn.med.uottawa.ca/lessons/test-your-learning-informed-consent/#assessment/wp-pro-quiz/76/interaction/241
+        - https://learn.med.uottawa.ca/lessons/test-your-learning-informed-consent/#assessment/wp-pro-quiz/76/interaction/242
+        - https://learn.med.uottawa.ca/lessons/test-your-learning-informed-consent/#assessment/wp-pro-quiz/76/interaction/243
+        - https://learn.med.uottawa.ca/lessons/test-your-learning-informed-consent/#assessment/wp-pro-quiz/76/interaction/244
+        - https://learn.med.uottawa.ca/lessons/test-your-learning-informed-consent/#assessment/wp-pro-quiz/76/interaction/245
+        - https://learn.med.uottawa.ca/lessons/test-your-learning-informed-consent/#assessment/wp-pro-quiz/76/interaction/246
+  https://apprendre.med.uottawa.ca/cours/consentement-eclaire-soins-fin-de-vie/:
+    name: Principes éthiques - Consentement éclairé et soins en fin de vie
+    name_abbr: FR module
+    first_scores:
+      https://apprendre.med.uottawa.ca/lecons/testez-vos-connaissances-consentement-eclaire/#assessment/wp-pro-quiz/78:
+        name: 'Post-test First Recorded Score (tracking since Jan. 7 2016)'
+    questions:
+      reflection:
+        https://apprendre.med.uottawa.ca/lecons/votre-avis-consentement-eclaire/#assessment/interaction/quiz-tool-lite/302:
+      scored:
+        - https://apprendre.med.uottawa.ca/lecons/testez-vos-connaissances-consentement-eclaire/#assessment/wp-pro-quiz/78/interaction/249
+        - https://apprendre.med.uottawa.ca/lecons/testez-vos-connaissances-consentement-eclaire/#assessment/wp-pro-quiz/78/interaction/250
+        - https://apprendre.med.uottawa.ca/lecons/testez-vos-connaissances-consentement-eclaire/#assessment/wp-pro-quiz/78/interaction/251
+        - https://apprendre.med.uottawa.ca/lecons/testez-vos-connaissances-consentement-eclaire/#assessment/wp-pro-quiz/78/interaction/252
+        - https://apprendre.med.uottawa.ca/lecons/testez-vos-connaissances-consentement-eclaire/#assessment/wp-pro-quiz/78/interaction/253
+        - https://apprendre.med.uottawa.ca/lecons/testez-vos-connaissances-consentement-eclaire/#assessment/wp-pro-quiz/78/interaction/254
+        - https://apprendre.med.uottawa.ca/lecons/testez-vos-connaissances-consentement-eclaire/#assessment/wp-pro-quiz/78/interaction/255
+        - https://apprendre.med.uottawa.ca/lecons/testez-vos-connaissances-consentement-eclaire/#assessment/wp-pro-quiz/78/interaction/256

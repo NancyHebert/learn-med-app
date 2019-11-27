@@ -1,0 +1,55 @@
+# Application
+web/app/plugins/*
+!web/app/plugins/.gitkeep
+web/app/mu-plugins/*
+!web/app/mu-plugins/.gitkeep
+web/app/upgrade
+web/app/uploads/*
+!web/app/uploads/.gitkeep
+!web/app/mu-plugins/disallow-indexing.php
+!web/app/mu-plugins/register-theme-directory.php
+!web/app/mu-plugins/bedrock-autoloader.php
+
+# WordPress
+web/wp
+web/.htaccess
+
+# WP-CLI
+db-sync
+sql-dump-*.sql
+*.sql
+
+# Dotenv
+.env
+.env.*
+!.env.example
+
+# Vendor (e.g. Composer)
+vendor/*
+!vendor/.gitkeep
+
+# Node Package Manager
+node_modules
+npm-debug.log
+
+# Vagrant
+bin
+.vagrant
+
+# rbenv
+.ruby-version
+
+# temp files from `wp learn-med`
+username-email-modify*
+jobs.json
+
+# Backuppress
+web/app/backupwordpress*
+
+# Reports
+web/app/themes/learn-med-theme/reports/*/*.xlsx
+
+# prevent .vault_pass (from learn-med-stack) from being inadvertently committed to this repo
+.vault_pass
+
+.DS_Store

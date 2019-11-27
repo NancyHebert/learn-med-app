@@ -1,0 +1,170 @@
+namespace :wpcli do
+  namespace :db do
+
+    task :pull_as_is do
+      on roles(:web) do
+        within release_path do
+          execute :wp, :db, :export, "- |", :gzip, ">", fetch(:wpcli_remote_db_file)
+          download! fetch(:wpcli_remote_db_file), fetch(:wpcli_local_db_file)
+          execute :rm, fetch(:wpcli_remote_db_file)
+        end
+      end
+
+      unless roles(:dev).empty?
+        on roles(:dev) do
+          within fetch(:dev_path) do
+            execute :gunzip, "<", fetch(:wpcli_local_db_file), "|", :wp, :db, :import, "-"
+            execute :rm, fetch(:wpcli_local_db_file)
+          end
+        end
+      else
+        run_locally do
+          execute :gunzip, "<", fetch(:wpcli_local_db_file), "|", :wp, :db, :import, "-"
+          execute :rm, fetch(:wpcli_local_db_file)
+        end
+      end
+    end
+
+    desc "Reset the dev db"
+    task :save_reset_dev_db do
+      unless roles(:dev).empty?
+        on roles(:dev) do
+          within fetch(:dev_path) do
+            invoke "wpcli:db:dumpdev"
+            execute :wp, :db, :reset, "--yes"
+          end
+        end
+      else
+        run_locally do
+          invoke "wpcli:db:dumpdev"
+          execute :wp, :db, :reset, "--yes"
+        end
+      end
+    end
+
+    desc "Set the local env settings"
+    task :set_env_settings_local do
+
+      unless roles(:dev).empty?
+        on roles(:dev) do
+          within fetch(:dev_path) do
+            execute :wp, "learn-med", "set-fr-domain"
+            execute :wp, "learn-med", "set-lrs-settings"
+          end
+        end
+      else
+        run_locally do
+          execute :wp, "learn-med", "set-fr-domain"
+          execute :wp, "learn-med", "set-lrs-settings"
+        end
+      end
+
+      invoke "wpcli:db:set_local_bulkimport_pwd"
+    end
+
+    desc "Set local bulkimport pwd"
+    task :set_local_bulkimport_pwd do
+      set :wpcli_remote_bulkimport_pwd_file, -> {"#{fetch(:tmp_dir)}/bulkimport_pwd"}
+      set :wpcli_local_bulkimport_pwd_file, -> {"#{fetch(:local_tmp_dir)}/bulkimport_pwd"}
+
+      on roles(:web) do
+        within release_path do
+          execute :wp, "learn-med", "get-adi-bulk-import-password", ">", fetch(:wpcli_remote_bulkimport_pwd_file)
+          download! fetch(:wpcli_remote_bulkimport_pwd_file), fetch(:wpcli_local_bulkimport_pwd_file)
+          execute :rm, fetch(:wpcli_remote_bulkimport_pwd_file)
+        end
+      end
+
+      unless roles(:dev).empty?
+        on roles(:dev) do
+          within fetch(:dev_path) do
+            execute :wp, "learn-med", "update-adi-bulk-import-password", fetch(:wpcli_local_bulkimport_pwd_file)
+            execute :rm, fetch(:wpcli_local_bulkimport_pwd_file)
+          end
+        end
+      else
+        run_locally do
+          execute :wp, "learn-med", "update-adi-bulk-import-password", fetch(:wpcli_local_bulkimport_pwd_file)
+          execute :rm, fetch(:wpcli_local_bulkimport_pwd_file)
+        end
+      end
+    end
+
+    before :pull, :save_reset_dev_db
+    before :pull_as_is, :save_reset_dev_db
+    after :pull, :set_env_settings_local
+    after :pull_as_is, :set_local_bulkimport_pwd
+    
+    after :push, :set_env_settings_remote do
+
+      set :wpcli_remote_bulkimport_pwd_file, -> {"#{fetch(:tmp_dir)}/bulkimport_pwd"}
+      set :wpcli_local_bulkimport_pwd_file, -> {"#{fetch(:local_tmp_dir)}/bulkimport_pwd"}
+
+      unless roles(:dev).empty?
+        on roles(:dev) do
+          within fetch(:dev_path) do
+            execute :wp, "learn-med", "get-adi-bulk-import-password", ">", fetch(:wpcli_local_bulkimport_pwd_file)
+          end
+        end
+      else
+        run_locally do
+          execute :wp, "learn-med", "get-adi-bulk-import-password", ">", fetch(:wpcli_local_bulkimport_pwd_file)
+        end
+      end
+
+      on roles(:web) do
+        upload! fetch(:wpcli_local_bulkimport_pwd_file), fetch(:wpcli_remote_bulkimport_pwd_file)
+        within release_path do
+          execute :wp, "learn-med", "set-fr-domain"
+          execute :wp, "learn-med", "set-lrs-settings"
+          execute :wp, "learn-med", "update-adi-bulk-import-password", fetch(:wpcli_remote_bulkimport_pwd_file)
+          execute :rm, fetch(:wpcli_remote_bulkimport_pwd_file)
+        end
+      end
+
+      unless roles(:dev).empty?
+        on roles(:dev) do
+          within fetch(:dev_path) do
+            execute :rm, fetch(:wpcli_local_bulkimport_pwd_file)
+          end
+        end
+      else
+        run_locally do
+          execute :rm, fetch(:wpcli_local_bulkimport_pwd_file)
+        end
+      end
+
+    end
+
+    task :revert do
+      unless roles(:dev).empty?
+        on roles(:dev) do
+          within fetch(:dev_path) do
+            execute :wp, :db, :reset, "--yes"
+            execute :wp, :db, :import, fetch(:wpcli_dev_backup_db_file)
+          end
+        end
+      else
+        run_locally do
+          execute :wp, :db, :reset, "--yes"
+          execute :wp, :db, :import, fetch(:wpcli_dev_backup_db_file)
+        end
+      end
+    end
+
+    task :dumpdev do
+      unless roles(:dev).empty?
+        on roles(:dev) do
+          within fetch(:dev_path) do
+            execute :wp, :db, :export, fetch(:wpcli_dev_backup_db_file)
+          end
+        end
+      else
+        run_locally do
+          execute :wp, :db, :export, fetch(:wpcli_dev_backup_db_file)
+        end
+      end
+    end
+
+  end
+end

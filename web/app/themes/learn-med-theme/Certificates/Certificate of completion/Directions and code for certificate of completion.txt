@@ -1,0 +1,24 @@
+Directions:
+In Text editing mode:
+<br></br>
+<p></p>
+<p></p>
+<p></p>
+<p></p>
+<p></p>
+<p></p>
+<p></p>
+<p></p>
+<p></p>
+<p></p>
+<p></p>
+<p style="text-align: center;"><h3>[usermeta field="display_name"]</h3></p>
+<p></p>
+<p></p>
+<p></p>
+<p></p> <p style="text-align: center;">Example LearnDash Course</p>
+
+*If text use code:
+<p style="text-align: center;">TEXT HERE</p> 
+If image or logo, align center and size accordingly.
+

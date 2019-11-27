@@ -1,0 +1,137 @@
+block1:
+  BCROU086@uottawa.ca:
+    name: Brian Crouse
+    level: PGY3
+    username: bcrou086
+    program: "PEDS"
+  hmisi037@uottawa.ca:
+    name: Hetoum Misirliyan
+    level: PGY1
+    username: hmisi037
+    program: "FM"
+  pshar098@uottawa.ca:
+    name: Pooja Kaushik
+    level: PGY2
+    username: pshar098
+    program: "FM"
+  smcge088@uottawa.ca:
+    name: Sean Mcgee
+    level: PGY1
+    username: smcge088
+    program: "FM"
+  cbout024@uottawa.ca:
+    name: Catherine Boutet
+    level: PGY1
+    username: cbout024
+    program: "FM"
+  zdulb061@uottawa.ca:
+    name: Zack  Dulberg
+    level: PGY1
+    username: zdulb061
+    program: "FM"
+  bklas083@uottawa.ca:
+    name: Benjamin Klassen
+    level: PGY1
+    username: bklas083
+    program: "FM"
+  adici058@uottawa.ca :
+    name: Anthony Dicinto
+    level: PGY1
+    username: adici058
+    program: "FM"
+  lmurt013@uottawa.ca:
+    name: Luke Murtha
+    level: PGY1
+    username: lmurt013
+    program: "BCT"
+  mlepa066@uottawa.ca:
+    name: Marissa Lepage
+    level: PGY1
+    username: mlepa066
+    program: "PSY"
+  kklar095@uottawa.ca:
+    name: Daniel Bellan
+    level: PGY1
+    username: kklar095
+    program: "PATH"
+  jgodb026@uottawa.ca:
+    name: Justin Godbout
+    level: PGY1
+    username: jgodb026
+    program: "EM"
+  apark039@uottawa.ca:
+    name: Adam Parks
+    level: PGY2
+    username: apark039
+    program: "EM"
+  RSUTT044@uottawa.ca:
+    name: Rob Suttie
+    level: PGY2
+    username: rsutt044
+    program: "EM"
+block2:
+  jsaba087@uottawa.ca:
+    name: Jeremy Saban
+    level: PGY1
+    username: jsaba087
+    program: "PEDS"
+  ochau017@uottawa.ca:
+    name: Owen Chauhan
+    level: PGY2
+    username: ochau017
+    program: "PEDS"
+  snand056@uottawa.ca:
+    name: Sheena Nadalal
+    level: Emerg1
+    username: snand056
+    program: "EM"
+  bnava054@uottawa.ca:
+    name: Navabi Behdad
+    level: PGY3
+    username: bnava054
+    program: "PEDS"
+  jwong206@uottawa.ca:
+    name: Justin Wong
+    level: PGY1
+    username: jwong206
+    program: "FM"
+  cedwa030@uottawa.ca :
+    name: Christine Edwards
+    level: PGY1
+    username: cedwa030
+    program: "FM"
+  azumr011@uottawa.ca:
+    name: Andrea Zumerova
+    level: PGY1
+    username: azumr011
+    program: "FM"
+  ashar132@uottawa.ca:
+    name: Andaleeb Shariff
+    level: PGY1
+    username: ashar132
+    program: "FM"
+  iarro027@uottawa.ca:
+    name: Isabelle Arroyo
+    level: PGY1
+    username: iarro027
+    program: "FM"
+  mlim031@uottawa.ca:
+    name: Megan Lim
+    level: PGY1
+    username: mlim031
+    program: "DERM"
+  nakhl065@uottawa.ca:
+    name: Mark Wu
+    level: PGY1
+    username: nakhl065
+    program: "BCT"
+  mwong112@uottawa.ca:
+    name: Michael Wong
+    level: PGY1
+    username: mwong112
+    program: "EM"
+  mmaal025@uottawa.ca:
+    name: Michel Maalouf
+    level: PGY1
+    username: mmaal025
+    program: "FM"

@@ -1,0 +1,10 @@
+modules:
+  https://learn.med.uottawa.ca/courses/patient-safety/:
+    name: Patient Safety
+  https://learn.med.uottawa.ca/courses/pain-management-and-foundational-analgesia/:
+    name: Pain Management and Foundational Analgesia
+  https://learn.med.uottawa.ca/courses/pain-assessment/:
+    name: Pain Assessment
+  https://learn.med.uottawa.ca/courses/pain-definitions-and-pathophysiology/:
+    name: Pain Definitions and Pathophysiology
+  

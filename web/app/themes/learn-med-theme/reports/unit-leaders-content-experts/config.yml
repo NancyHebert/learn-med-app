@@ -1,0 +1,9 @@
+quizzes:
+  https://learn.med.uottawa.ca/gb_xapi_content/quiz-for-content-experts/:
+    name: Content Experts EN
+  https://apprendre.med.uottawa.ca/gb_xapi_content/quiz-pour-experts-de-contenu/:
+    name: Content Experts FR
+  https://learn.med.uottawa.ca/gb_xapi_content/quiz-for-unit-leaders/:
+    name: Unit Leaders EN
+  https://apprendre.med.uottawa.ca/gb_xapi_content/quiz-pour-responsables-dunite/:
+    name: Unit Leaders FR

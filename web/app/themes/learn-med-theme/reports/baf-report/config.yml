@@ -1,0 +1,11 @@
+modules:
+  https://apprendre.med.uottawa.ca/cours/lutilisation-appropriee-des-antibiotiques/:
+    name: L’utilisation appropriee des antibiotiques
+  https://apprendre.med.uottawa.ca/cours/apprendre-a-gerer-les-seances-dapprentissage-par-cas-apc/:
+    name: Apprendre à gérer les séances d’apprentissage par cas (APC)
+  https://apprendre.med.uottawa.ca/cours/demystifier-la-toux-chronique/:
+    name: Démystifier la toux chronique
+  https://apprendre.med.uottawa.ca/cours/prevention-de-la-maltraitance-des-etudiants-en-medecine/:
+    name: Prévention de la maltraitance des étudiants en médecine
+
+  

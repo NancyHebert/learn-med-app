@@ -1,0 +1,96 @@
+block1:
+  cmilk022@uottawa.ca:
+    name: Christopher Milko
+    level: PGY1
+    username: cmilk022
+    program: "FM"
+block2:
+  JWONG184@uottawa.ca:
+    name: Jacinda Wong
+    level: PGY1
+    username: JWONG184
+    program: "FM"
+  kboya093@uottawa.ca:
+    name: Komaldeep Boyal
+    level: PGY1
+    username: KBOYA093
+    program: "FM"
+  DMYRA088@uottawa.ca:
+    name: Daniel Myran
+    level: PGY1
+    username: DMYRA088
+    program: "FM"
+block3:
+  JBLAI013@uottawa.ca:
+    name: James Blaine
+    level: PGY1
+    username: jblai013
+    program: "FM"
+block4:
+  tfant074@uottawa.ca:
+    name: Tania Fantin
+    level: PGY1
+    username: TFANT074
+    program: "FM"
+  dbell104@uottawa.ca:
+    name: Daniel Bellan
+    level: PGY1
+    username: DBELL104
+    program: "FM"
+  MBPER069@uottawa.ca:
+    name: Maude Perras
+    level: PGY1
+    username: MBPER069
+    program: "EM"
+block5:
+  WQIAN040@uottawa.ca:
+    name: Wei Qjang
+    level: PGY1
+    username: WQIAN040
+    program: "FM"
+block6:
+  jbard007@uottawa.ca:
+    name: Jillian  Bardsley
+    level: PGY1
+    username: JBARD007
+    program: "FM"
+  kaoki022@uottawa.ca:
+    name: Katherine Aoki
+    level: PGY1
+    username: kaoki022
+    program: "FM"
+block7:
+  dstit074@uottawa.ca:
+    name: David Stitt
+    level:
+    username: dstit074
+    program: "EM/FM"
+block8:
+  SBURG008@uottawa.ca:
+    name: Sydnee Burgess
+    level: PGY1
+    username: SBURG008
+    program: "FM"
+block9:
+  nrami067@uottawa.ca:
+    name: Nina Ramic
+    level: PGY1
+    username: NRAMI067
+    program: "FM"
+block10:
+  CPELL045@uottawa.ca:
+    name: Christopher Pellini
+    level: PGY1
+    username: cpell045
+    program: "FM"
+  hhsu045@uottawa.ca:
+    name: Helen Hsu
+    level: PGY1
+    username: HHSU045
+    program: "FM"
+block13:
+  abine065@uottawa.ca:
+    name: Andrew Binette
+    level: PGY1
+    username: abine065
+    program: "FM"

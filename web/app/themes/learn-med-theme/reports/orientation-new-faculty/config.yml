@@ -1,0 +1,66 @@
+quizzes:
+  https://learn.med.uottawa.ca/gb_xapi_content/orientation-quiz-non-clinical/:
+    name: Orientation quiz for faculty in non-clinical departments
+  https://learn.med.uottawa.ca/gb_xapi_content/orientation-quiz-clinical/:
+    name: Orientation quiz for clinical faculty
+modules:
+  https://learn.med.uottawa.ca/courses/assessing-and-evaluating-learner-performance/:
+    name: Assessing and Evaluating Learner Performance
+    name_abbr: Evaluation module
+    first_scores:
+      https://learn.med.uottawa.ca/lessons/what-do-you-know-about-assessment-and-evaluation/#assessment/wp-pro-quiz/48:
+        name: 'Pre-test First Recorded Score (tracking since Jan. 7 2016)'
+    questions:
+      reflection:
+        https://learn.med.uottawa.ca/lessons/learning-objectives/#assessment/interaction/quiz-tool-lite/128:
+        https://learn.med.uottawa.ca/lessons/assessment-vs-evaluation/#assessment/interaction/quiz-tool-lite/111:
+        https://learn.med.uottawa.ca/lessons/why-assess/#assessment/interaction/quiz-tool-lite/112:
+        https://learn.med.uottawa.ca/lessons/barriers-to-a-good-evaluation-psychological/#assessment/interaction/quiz-tool-lite/113:
+        https://learn.med.uottawa.ca/lessons/barriers-to-a-good-evaluation-psychometric/#assessment/interaction/quiz-tool-lite/114:
+        https://learn.med.uottawa.ca/lessons/barriers-to-a-good-evaluation-rater-error/#assessment/interaction/quiz-tool-lite/115:
+      scored:
+        - https://learn.med.uottawa.ca/lessons/what-do-you-know-about-assessment-and-evaluation/#assessment/wp-pro-quiz/48/interaction/173
+        - https://learn.med.uottawa.ca/lessons/what-do-you-know-about-assessment-and-evaluation/#assessment/wp-pro-quiz/48/interaction/174
+        - https://learn.med.uottawa.ca/lessons/what-do-you-know-about-assessment-and-evaluation/#assessment/wp-pro-quiz/48/interaction/175
+        - https://learn.med.uottawa.ca/lessons/what-do-you-know-about-assessment-and-evaluation/#assessment/wp-pro-quiz/48/interaction/176
+        - https://learn.med.uottawa.ca/lessons/what-do-you-know-about-assessment-and-evaluation/#assessment/wp-pro-quiz/48/interaction/177
+        - https://learn.med.uottawa.ca/lessons/what-do-you-know-about-assessment-and-evaluation/#assessment/wp-pro-quiz/48/interaction/178
+        - https://learn.med.uottawa.ca/lessons/what-do-you-know-about-assessment-and-evaluation/#assessment/wp-pro-quiz/48/interaction/179
+  https://learn.med.uottawa.ca/courses/giving-feedback-why-and-how/:
+    name: 'Giving Feedback: Why and how?'
+    name_abbr: Feedback module
+    first_scores:
+      https://learn.med.uottawa.ca/lessons/what-do-you-know-about-feedback/#assessment/wp-pro-quiz/50:
+        name: 'Pre-test First Recorded Score (tracking since Jan. 7 2016)'
+      https://learn.med.uottawa.ca/lessons/test-your-learning-2/#assessment/wp-pro-quiz/49:
+        name: 'Post-test First Recorded Score (tracking since Jan. 7 2016)'
+    questions:
+      reflection:
+        https://learn.med.uottawa.ca/lessons/learning-objectives-2/#assessment/interaction/quiz-tool-lite/121:
+        https://learn.med.uottawa.ca/lessons/case-1-do-you-not-know-how-to-do-this/#assessment/interaction/quiz-tool-lite/122:
+          title: Case 1
+        https://learn.med.uottawa.ca/lessons/case-2-did-you-not-hear-a-word-i-said/#assessment/interaction/quiz-tool-lite/123:
+          title: Case 2
+        https://learn.med.uottawa.ca/lessons/case-3-the-disruptive-learner/#assessment/interaction/quiz-tool-lite/124:
+          title: Case 3
+        https://learn.med.uottawa.ca/lessons/case-4-really-is-that-what-youre-wearing-today/#assessment/interaction/quiz-tool-lite/125:
+          title: Case 4
+        https://learn.med.uottawa.ca/lessons/did-we-meet-your-learning-objectives/#assessment/interaction/quiz-tool-lite/126:
+        https://learn.med.uottawa.ca/lessons/please-provide-feedback/#assessment/interaction/quiz-tool-lite/127:
+      scored:
+        - https://learn.med.uottawa.ca/lessons/what-do-you-know-about-feedback/#assessment/wp-pro-quiz/50/interaction/102
+        - https://learn.med.uottawa.ca/lessons/what-do-you-know-about-feedback/#assessment/wp-pro-quiz/50/interaction/103
+        - https://learn.med.uottawa.ca/lessons/what-do-you-know-about-feedback/#assessment/wp-pro-quiz/50/interaction/104
+        - https://learn.med.uottawa.ca/lessons/what-do-you-know-about-feedback/#assessment/wp-pro-quiz/50/interaction/105
+        - https://learn.med.uottawa.ca/lessons/what-do-you-know-about-feedback/#assessment/wp-pro-quiz/50/interaction/106
+        - https://learn.med.uottawa.ca/lessons/what-do-you-know-about-feedback/#assessment/wp-pro-quiz/50/interaction/107
+        - https://learn.med.uottawa.ca/lessons/test-your-learning-2/#assessment/wp-pro-quiz/49/interaction/96
+        - https://learn.med.uottawa.ca/lessons/test-your-learning-2/#assessment/wp-pro-quiz/49/interaction/97
+        - https://learn.med.uottawa.ca/lessons/test-your-learning-2/#assessment/wp-pro-quiz/49/interaction/98
+        - https://learn.med.uottawa.ca/lessons/test-your-learning-2/#assessment/wp-pro-quiz/49/interaction/99
+        - https://learn.med.uottawa.ca/lessons/test-your-learning-2/#assessment/wp-pro-quiz/49/interaction/100
+        - https://learn.med.uottawa.ca/lessons/test-your-learning-2/#assessment/wp-pro-quiz/49/interaction/101
+# inspect:
+#   - name: 'What to expect'
+#     activity_id: https://learn.med.uottawa.ca/activity_id_of_question
+#     agent_email: example@uottawa.ca

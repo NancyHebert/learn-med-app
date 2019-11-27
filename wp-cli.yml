@@ -1,0 +1,7 @@
+path: web/wp
+url: https://learn.med.uottawa.dev/wp
+require:
+  - script/wp-cli/learn-med.php
+  - script/wp-cli/learn-med-user.php
+  - script/wp-cli/learn-med-user-modify.php
+  - script/wp-cli/learn-med-search-replace.php
